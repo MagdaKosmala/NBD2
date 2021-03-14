@@ -1,1 +1,1 @@
-# NBD2 - bazy dokumentowe
+# NBD2 - bazy dokumentowe ćwiczenia
