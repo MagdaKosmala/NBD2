@@ -1,0 +1,46 @@
+MongoDB shell version v4.2.7
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("401c8e1b-d888-4ecd-81c4-7d50eb51cd8f") }
+MongoDB server version: 4.2.7
+{
+	"_id" : "Male",
+	"avgHeight" : NumberDecimal("166.7346950726978998384491114701131"),
+	"avgWeight" : NumberDecimal("70.00976575121163166397415185783522")
+}
+{
+	"_id" : "Female",
+	"avgHeight" : NumberDecimal("166.8098437182869900548000811853055"),
+	"avgWeight" : NumberDecimal("70.10515120763141871321290846356809")
+}
+{
+	"results" : [
+		{
+			"_id" : "Female",
+			"value" : {
+				"count" : 4927,
+				"height" : 821872.1000000007,
+				"weight" : 345408.0800000005,
+				"avgHeight" : 166.80984371828714,
+				"avgWeight" : 70.10515120763152
+			}
+		},
+		{
+			"_id" : "Male",
+			"value" : {
+				"count" : 4952,
+				"height" : 825670.2100000009,
+				"weight" : 346688.3600000002,
+				"avgHeight" : 166.7346950726981,
+				"avgWeight" : 70.00976575121167
+			}
+		}
+	],
+	"timeMillis" : 185,
+	"counts" : {
+		"input" : 9879,
+		"emit" : 9879,
+		"reduce" : 198,
+		"output" : 2
+	},
+	"ok" : 1
+}
