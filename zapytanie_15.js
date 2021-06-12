@@ -24,7 +24,7 @@ db.people.aggregate([
 //map reduce
 print("map reduce")
 let mapFunction5 = function() {
-	if(this.sex == "Female" && this.nationality === "Poland"){
+	if(this.sex === "Female" && this.nationality === "Poland"){
 		this.credit.forEach(function(item){ 
 		
 			let key = item.currency;
